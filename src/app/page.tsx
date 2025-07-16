@@ -8,7 +8,7 @@ import BreathingExercise from '@/components/BreathingExercise';
 import ParentingScenarios from '@/components/ParentingScenarios';
 import CoordinationGame from '@/components/CoordinationGame';
 import BoardGame from '@/components/BoardGame';
-import RetroGame from '@/components/RetroGame';
+//import RetroGame from '@/components/RetroGame';
 import Image from "next/image";
 
 const Index = () => {

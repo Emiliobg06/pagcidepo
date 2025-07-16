@@ -8,7 +8,6 @@ import EmotionQuiz from './EmotionQuiz';
 import BreathingExercise from './BreathingExercise';
 import ParentingScenarios from './ParentingScenarios';
 import CoordinationGame from './CoordinationGame';
-import { Link} from 'react-router-dom';
 
 interface Player {
   id: number;

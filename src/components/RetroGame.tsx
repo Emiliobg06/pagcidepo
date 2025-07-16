@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowUp, ArrowDown, ArrowLeft, ArrowRight, Star, Heart, Brain, Users, Target, Trophy, Play, RotateCcw } from 'lucide-react';
+import { Trophy, Play, RotateCcw } from 'lucide-react';
 import { toast } from "sonner";
 import EmotionQuiz from './EmotionQuiz';
 import BreathingExercise from './BreathingExercise';
