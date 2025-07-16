@@ -286,7 +286,7 @@ const BoardGame = () => {
         <Card className="bg-white/90 backdrop-blur-sm border-2 border-[#333F48]">
           <CardContent className="p-6">
             <div className="grid grid-cols-4 gap-2 mb-4">
-              {boardSpaces.map((space, index) => (
+              {boardSpaces.map((space) => (
                 <div
                   key={space.id}
                   className={`relative h-20 rounded-lg border-2 border-white shadow-md flex flex-col items-center justify-center ${(space.id !== 0 && space.id !== 5) ? space.color : ''}`}
