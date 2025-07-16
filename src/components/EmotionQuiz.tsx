@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { CheckCircle, XCircle, Lightbulb } from 'lucide-react';
+import { CheckCircle, Lightbulb } from 'lucide-react';
 import { toast } from "sonner";
 
 interface EmotionQuizProps {

@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Heart, Brain, Users, Target, Star, ArrowLeft, Gamepad2 } from 'lucide-react';
+import { Heart, Brain, Users, Target, ArrowLeft, Gamepad2 } from 'lucide-react';
 import EmotionQuiz from '@/components/EmotionQuiz';
 import BreathingExercise from '@/components/BreathingExercise';
 import ParentingScenarios from '@/components/ParentingScenarios';
