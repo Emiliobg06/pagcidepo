@@ -85,8 +85,8 @@ const BreathingExercise = () => {
   const getPhaseColor = () => {
     switch (phase) {
       case 'inhale': return 'from-[#10a4b8] to-[#10a4b8]'; // Pantone 7710C
-      case 'hold': return 'from-yellow-400 to-yellow-600';
-      case 'exhale': return 'from-green-400 to-green-600';
+      case 'hold': return 'from-[#fbc932] to-[#fbc932]'; // Pantone 1205C
+      case 'exhale': return 'from-[#f35444] to-[#f35444]';
     }
   };
 

@@ -128,9 +128,9 @@ const ParentingScenarios = ({ onScore }: ParentingScenariosProps) => {
             <p className="text-lg" style={{ color: '#333f48' }}>
               Has explorado diferentes situaciones de crianza y practicado respuestas basadas en la crianza positiva.
             </p>
-            <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
-              <h3 className="font-semibold text-blue-800 mb-2">Recuerda los pilares de la crianza positiva:</h3>
-              <div className="text-left text-blue-700 space-y-1">
+            <div className="bg-cyan-50 p-4 rounded-lg border border-[#10a4b8]">
+              <h3 className="font-semibold text-[#10a4b8] mb-2">Recuerda los pilares de la crianza positiva:</h3>
+              <div className="text-left text-[#10a4b8] space-y-1">
                 <div>• Validar las emociones de los niños</div>
                 <div>• Establecer límites claros con respeto</div>
                 <div>• Buscar soluciones colaborativas</div>
@@ -196,26 +196,26 @@ const ParentingScenarios = ({ onScore }: ParentingScenariosProps) => {
             <div className={`p-4 rounded-lg border ${
               selectedOption === scenarios[currentScenario].bestOption
                 ? 'bg-[#e0f7fa] border-[#10a4b8]'
-                : 'bg-blue-50 border-blue-200'
+                : 'bg-red-50 border-[#f35444]'
             }`}>
               <div className="flex items-start gap-3">
                 <Lightbulb className={`mt-1 flex-shrink-0 ${
                   selectedOption === scenarios[currentScenario].bestOption
                     ? 'text-[#10a4b8]'
-                    : 'text-blue-600'
+                    : 'text-[#f35444]'
                 }`} />
                 <div>
                   <h4 className={`font-semibold mb-2 ${
                     selectedOption === scenarios[currentScenario].bestOption
                       ? 'text-[#10a4b8]'
-                      : 'text-blue-800'
+                      : 'text-[#f35444]'
                   }`}>
                     Reflexión:
                   </h4>
                   <p className={`${
                     selectedOption === scenarios[currentScenario].bestOption
                       ? 'text-[#10a4b8]'
-                      : 'text-blue-700'
+                      : 'text-[#f35444]'
                   }`}>
                     {selectedOption === scenarios[currentScenario].bestOption
                       ? scenarios[currentScenario].feedback.positive

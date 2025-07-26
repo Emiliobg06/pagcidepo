@@ -115,12 +115,12 @@ const EmotionQuiz = ({ onScore }: EmotionQuizProps) => {
               </p>
             )}
             {score >= 60 && score < 80 && (
-              <p className="text-lg text-blue-700 font-semibold">
+              <p className="text-lg text-[#10a4b8] font-semibold">
                 ¡Buen trabajo! Estás en el camino correcto para desarrollar tu inteligencia emocional.
               </p>
             )}
             {score < 60 && (
-              <p className="text-lg text-orange-700 font-semibold">
+              <p className="text-lg text-green-700 font-semibold">
                 ¡Sigue practicando! Cada paso en el aprendizaje emocional es valioso.
               </p>
             )}
@@ -174,9 +174,9 @@ const EmotionQuiz = ({ onScore }: EmotionQuizProps) => {
           </div>
         ) : (
           <div className="space-y-4">
-            <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+            <div className="bg-cyan-50 p-4 rounded-lg border border-[#10a4b8]">
               <div className="flex items-start gap-3">
-                <Lightbulb className="text-blue-600 mt-1 flex-shrink-0" />
+                <Lightbulb className="text-[#10a4b8] mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold mb-2" style={{ color: '#333f48' }}>Explicación:</h4>
                   <p style={{ color: '#333f48' }}>{questions[currentQuestion].explanation}</p>
