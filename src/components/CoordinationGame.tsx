@@ -20,10 +20,10 @@ const CoordinationGame = ({ onScore }: CoordinationGameProps) => {
   const [gameOver, setGameOver] = useState(false);
 
   const colors = [
-    { id: 0, color: 'bg-[#f35444] hover:bg-red-500', active: 'bg-red-600', name: 'Rojo' },
-    { id: 1, color: 'bg-[#10a4b8] hover:bg-blue-500', active: 'bg-blue-600', name: 'Azul' },
-    { id: 2, color: 'bg-green-400 hover:bg-green-500', active: 'bg-green-600', name: 'Verde' },
-    { id: 3, color: 'bg-[#fbc932] hover:bg-[#e6b800]', active: 'bg-[#e6b800]', name: 'Amarillo' } // Cambiado a Pantone 123 C
+    { id: 0, color: 'bg-red-200 hover:bg-[#f35444]', active: 'bg-red-500', name: 'Rojo' },
+    { id: 1, color: 'bg-blue-200 hover:bg-[#10a4b8]', active: 'bg-blue-500', name: 'Azul' },
+    { id: 2, color: 'bg-green-200 hover:bg-green-500', active: 'bg-green-500', name: 'Verde' },
+    { id: 3, color: 'bg-yellow-200 hover:bg-[#fbc932]', active: 'bg-yellow-500', name: 'Amarillo' } // Cambiado a Pantone 123 C
   ];
 
   const startGame = () => {

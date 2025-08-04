@@ -10,6 +10,7 @@ import CoordinationGame from '@/components/CoordinationGame';
 import BoardGame from '@/components/BoardGame';
 //import RetroGame from '@/components/RetroGame';
 import Image from "next/image";
+import Logo from "@/components/Logo";
 
 const Index = () => {
   const [currentGame, setCurrentGame] = useState<string | null>(null);
@@ -79,6 +80,7 @@ const Index = () => {
   if (currentGame) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-[#f0f2f4] to-pink-50 p-4"> {/* Updated gradient */}
+      <Logo />
         <div className="max-w-4xl mx-auto">
           {(
             <Button

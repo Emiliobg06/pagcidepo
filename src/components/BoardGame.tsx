@@ -180,7 +180,7 @@ const BoardGame = () => {
 
   if (currentMinigame) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-[#333F48] to-pink-50 p-4">
+      <div className="min-h-screen bg-gradient-to-br from-[#f0f2f4] to-pink-50 p-4">
         <div className="max-w-4xl mx-auto">
           <Button
             onClick={() => {
@@ -203,7 +203,7 @@ const BoardGame = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 p-4">
+    <div className="min-h-screen bg-gradient-to-br from-[#f0f2f4] to-pink-50 p-4">
       <div className="max-w-6xl mx-auto space-y-6">
         {/* Header */}
         <Card className="bg-white/90 backdrop-blur-sm border-2 border-[#333F48]">
